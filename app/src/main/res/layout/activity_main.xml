@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -48,7 +47,7 @@
             android:id="@+id/iv_currentConditions"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@drawable/sunny"
+            android:background="@drawable/unknown"
             android:contentDescription="@string/condition"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -119,7 +118,14 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:contentDescription="@string/condition"/>
+                android:contentDescription="@string/condition"
+                android:background="@drawable/unknown"/>
+            <TextView
+                android:id="@+id/tv_day0_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/today"/>
             <TextView
                 android:id="@+id/tv_day0_high"
                 android:layout_width="0dp"
@@ -151,7 +157,14 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:contentDescription="@string/condition"/>
+                android:contentDescription="@string/condition"
+                android:background="@drawable/unknown"/>
+            <TextView
+                android:id="@+id/tv_day1_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/tomorrow"/>
             <TextView
                 android:id="@+id/tv_day1_high"
                 android:layout_width="0dp"
@@ -183,7 +196,14 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:contentDescription="@string/condition"/>
+                android:contentDescription="@string/condition"
+                android:background="@drawable/unknown"/>
+            <TextView
+                android:id="@+id/tv_day2_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/plusTwo"/>
             <TextView
                 android:id="@+id/tv_day2_high"
                 android:layout_width="0dp"
@@ -215,7 +235,14 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:contentDescription="@string/condition"/>
+                android:contentDescription="@string/condition"
+                android:background="@drawable/unknown"/>
+            <TextView
+                android:id="@+id/tv_day3_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/plusThree"/>
             <TextView
                 android:id="@+id/tv_day3_high"
                 android:layout_width="0dp"
@@ -247,7 +274,14 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:contentDescription="@string/condition"/>
+                android:contentDescription="@string/condition"
+                android:background="@drawable/unknown"/>
+            <TextView
+                android:id="@+id/tv_day4_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/plusFour"/>
             <TextView
                 android:id="@+id/tv_day4_high"
                 android:layout_width="0dp"

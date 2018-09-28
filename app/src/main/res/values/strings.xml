@@ -1,17 +1,23 @@
 <resources>
     <string name="app_name">Forecast</string>
-    <string name="today">Today</string>
-    <string name="forecast">5-Day Forecast</string>
     <string name="triple_8">888</string>
     <string name="locdesc">Change Location</string>
     <string name="condition">Weather Conditions for this day</string>
+    <string name="choose_coords">Choose a Location</string>
+    <string name="blank_coords">Enter a Zip Code</string>
+
+    <!-- Buttons -->
+    <string name="cancel">Cancel</string>
+    <string name="currentLocation">My Location</string>
+    <string name="specifiedLocation">Entered Zip Code</string>
 
     <!-- Weather types -->
-    <string name="sunny">Sunny</string>
-    <string name="cloudy">Cloudy</string>
     <string name="partly_cloudy">Partly Cloudy</string>
-    <string name="light_rain">Showers</string>
-    <string name="rain">Rain</string>
-    <string name="t_storm">Thunder Storms</string>
-    <string name="snow">Snow</string>
+
+    <!--Days-->
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="plusTwo">2 Days Ahead</string>
+    <string name="plusThree">3 Days Ahead</string>
+    <string name="plusFour">4 Days Ahead</string>
 </resources>
